@@ -1,0 +1,12 @@
+
+//Подключение без sass-glob
+// @import "block/title.scss";
+// @import "block/news.scss";
+
+// @import "block/*.scss";
+@import "block/normalize.scss";
+@import "block/header.scss";
+
+
+@import "block/footer.scss";
+

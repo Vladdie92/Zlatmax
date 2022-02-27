@@ -1,0 +1,17 @@
+extends layout/app
+
+block page
+	include chunk/header
+
+	h1.title Главная
+	
+	img.img(src="img/avengers.jpg", alt="Мстители" width="700")
+	p hello
+
+	p.fish Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tenetur sequi quo laudantium fugit earum eaque sunt dicta, aliquid odio, iste in repellendus expedita odit nam ad laborum? Molestiae, nesciunt.
+		
+	ul.news 
+		each item in news 
+			li= item.name 
+
+	include chunk/footer

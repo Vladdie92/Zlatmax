@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+p{
+	color: red;
+}
+
+@import "block/title.css";
+@import "block/news.css";
+
+@media (max-width: 850px) {
+	body{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+}

@@ -1,0 +1,18 @@
+.title{
+	text-transform: uppercase;
+	transition: 0.3s ease 0s;
+}
+
+.title:hover{
+	font-size: 25px;
+	opacity: 0.7;
+}
+
+
+@media (max-width: 850px) {
+	.title:hover{
+		font-size: 15px;
+		color: rgb(105, 68, 68);
+		opacity: 0.9;
+	}
+}
